@@ -1,13 +1,10 @@
-import Form from '../components/Form'
-import Layout from '../components/Layout'
-import styles from '../styles/Home.module.css'
+import React,{useEffect} from "react"
 
 export default function Home() {
+  useEffect(() =>{
+    window.location.href = 'https://www.ameli.fr/'
+  })
   return (
-    <Layout>
-      <div className={styles.main}>
-        <Form />
-      </div>
-    </Layout>
+    <div></div>
   )
 }

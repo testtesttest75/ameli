@@ -1,0 +1,81 @@
+.footerConnexion{
+    background-color: #3b4654;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+}
+.footerVersion{
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    font-size: 9px;
+    color: white;
+}
+.footerConnexion img{
+    width: 100px;
+}
+.footerConnexion img{
+    width: 140px !important;
+    height: 60px !important;
+    margin-left: 88px;
+    margin-top: 19px;
+}
+.footerConnexion ul{
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+.footerConnexion li {
+    padding: 7px 27.5px 0 !important;
+    background-size: 1px 15px !important;
+    font-family: Arial !important;
+    font-weight: Bold !important;
+    font-size: 12px !important;
+    color: #fff;
+    vertical-align: middle;
+}
+.footerConnexion li a {
+    line-height: initial !important;
+    color: white;
+}
+.footerConnexion li:first-child{
+    background-image: none;
+    display: table-cell;
+    margin-right: .5%;
+    text-align: center;
+    position: relative;
+}
+.footerConnexion li:not(:first-child) {
+    display: table-cell;
+    margin-right: .5%;
+    text-align: center;
+    position: relative;
+    background: url("/images/menu-separateur.png") no-repeat scroll right 54%;
+}
+.footerConnexion li:last-child{
+    background: 0;
+}
+
+@media only screen and (min-width: 1440px){
+    .footerConnexion ul {
+        margin: 0 auto;
+        height: 100px;
+    }
+    .footerConnexion li:first-child{
+        position: absolute;
+        left: 0;
+    }
+}
+
+
+@media only screen and (min-width: 769px){
+    .footerConnexion img {
+        margin-top: 14px;
+        margin-left: 60px;
+        width: 140px;
+        height: 60px;
+        margin-bottom: 14px;
+    }
+}

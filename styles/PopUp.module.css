@@ -1,0 +1,36 @@
+.visibleContainer{
+    padding: 3%;
+    z-index: 1000;
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.visibleBlur{
+    top: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.invisibleBlur{
+    display: none;
+}
+.invisibleContainer{
+    display: none;
+}
+.visibleContainer img{
+    width: 70%;
+}

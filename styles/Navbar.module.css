@@ -1,0 +1,17 @@
+.navbar{
+    height: 88px;
+    box-shadow: 0 0 20px 0 rgb(101 101 101 / 60%);
+    overflow: hidden;
+}
+.navbar a{
+    margin-left: 60px;
+    display: inline-block;
+}
+.navbar img{
+    margin-top: 14px;
+    width: 140px;
+    height: 60px;
+    margin-bottom: 14px;
+    vertical-align: bottom;
+
+}
